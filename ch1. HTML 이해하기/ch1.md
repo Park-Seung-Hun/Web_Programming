@@ -1,11 +1,11 @@
 # HTML 이해하기
 ---
-# 목차
+# 📖목차
   - [HTML 정의](#html-정의)
   - [HTML 문법](#html-문법)
   - [HTML 문법 -> 태그](#html-문법-태그)
   - [HTML 문법 -> 속성](#html-문법-속성)
-  - HTML 문법 -> 태그 중첩
+  - [HTML 문법 -> 태그 중첩](#html-문법-태그-중첩)
   - HTML 문법 -> 빈 태그
   - HTML 문법 -> 공백
   - HTML 문법 -> 주석
@@ -46,7 +46,7 @@
 <h1> Hello,HTML</h1>
 
 [🚀위로 가기](#목차)
-<br>
+<br><br>
 
 ## HTML 문법 (속성)
 > 속성이란? 태그에 추가로 정보를 제공하거나 태그의 동작이나 표현을 제어할 수 있는 설정 값
@@ -55,3 +55,27 @@
 - 시작 태그에서 태그 이름 뒤 공백으로 구분 후 `속성 이름="속성값"`으로 표현한다.
 - 속성 값은 ''와 ""로 감싸 표현한다.
 - 의미와 용도에 따라 여러 속성이 존재하며 하나의 태그에 여러 속성을 선언할 수 있다.
+- 속성의 종류
+  - 모든 태그에 사용할 수 있는 속성(글로벌 속성) or 특정 태그에만 사용할 수 있는 속성
+  - 선택적으로 사용 가능한 속성 or 특정 태그에서 필요한 필수 속성 
+<br>
+
+### 1. id와 class 2개의 속성을 이용한 예제
+```html
+<h1 id="title" class="main">Hello,HTML</h1>
+```
+<h1 id="title" class="main">Hello,HTML</h1>
+<br>
+
+### 2. img태그에 src속성을 이용한 예시 
+```html
+<h1>Hello,HTML</h1>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png" width="50%">
+```
+<h1>Hello,HTML</h1>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png" width="10%">
+
+[🚀위로 가기](#목차)
+<br><br>
+
+## HTML 문법 (태그 중첩)
