@@ -1,19 +1,15 @@
-# HTML 이해하기 목차
+# HTML_CSS 
 ------
 
-  * Hyper Text Markup Language = HTML
-  * HTML 문법
-  * HTML 문법 – 태그
-  * HTML 문법 – 속성
-  * HTML 문법 – 태그 중첩
-  * HTML 문법 – 빈 태그
-  * HTML 문법 – 공백
-  * HTML 문법 – 주석
-  * 문서의 기본 구조
-  
- <pre>
- <code>
-    <h1>Hello HTML</h1>
-    <h2>Hello HTML</h2>
- </code>
- </pre>
+## HTML 기본
+ch.1 HTML 이해하기
+ch.2 HTML 태그
+ch.3 콘텐츠 모델, 시멘틱마크업, 블록 & 인라인
+
+## CSS 기본
+진행중.
+
+## 프로젝트
+없음
+
+기본 강의는 edwith의 무료강의 비전공자를 위한 HTML/CSS을 토대로 제작.
