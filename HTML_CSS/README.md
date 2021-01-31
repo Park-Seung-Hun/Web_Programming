@@ -4,8 +4,7 @@
 
 ## HTML 기본
 [ch.1 HTML 이해하기](https://github.com/Park-Seung-Hun/Web_Programming/blob/main/HTML_CSS/HTML_CSS_Basic/ch1.md)<br>
-
-ch.2 HTML 태그<br>
+[ch.2 HTML 태그](https://github.com/Park-Seung-Hun/Web_Programming/blob/main/HTML_CSS/HTML_CSS_Basic/ch2.md)<br>
 ch.3 콘텐츠 모델, 시멘틱마크업, 블록 & 인라인<br>
 
 ## CSS 기본
