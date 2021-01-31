@@ -1,4 +1,4 @@
-# HTML_CSS
+# Web_Programming
 > HTML 및 CSS, 그리고 Javascript 기본기 및 프로젝트<br>
 
 ## [edwith](https://www.edwith.org/)의 부스트 코스 강의<br>
