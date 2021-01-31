@@ -62,16 +62,59 @@
 <br><br>
 
 ## 텍스트를 꾸며주는 요소
+- `<b></b>`: 글자를 굵게 표현하는 태그
+- `<i></i>`: 글자를 기울여서 표현하는 태그
+- `<u></u>`: 글자의 밑줄을 표현하는 태그
+- `<s></s>`: 글자의 중간선을 표현하는 태그
+
+### 예제
+```html
+<p>
+    <b>Lorem</b> <i>ipsum</i> dolor sit amet<br>
+    <u>Lorem</u> <s>ipsum</s> dolor sit amet
+</p>
+```
+<p>
+    <b>Lorem</b> <i>ipsum</i> dolor sit amet<br>
+    <u>Lorem</u> <s>ipsum</s> dolor sit amet
+</p><br>
 
 [🚀위로 가기](#목차)
 <br><br>
 
 ## 앵커 요소
+> 앵커 태그란? HTML에서 HT는 링크를 의미한다. 이때 앵커 태그는 이런 링크를 생성하여 다른 페이지로 이동하거나 현재 페이지 내에서 특정 위치로 초점을 이동시킨다.
+
+```html
+<a href="http://www.naver.com/" target="_blank">네이버</a>
+```
+
+- `<a></a>`: 앵커 태그  
+- `href 속성`: 링크의 목적지가 되는 URL
+- `target 속성`: 링크된 리소스를 어디에 표시할지 나타내는 속성
+  - `_self`: 현재 화면에 표시. default 값.
+  - `_blank`: 새로운 창에 표시. 즉, 외부 페이지가 나타나게끔 하는 속성
+  - `_parent`, `_top`: 프레임이라는 특정 조건에서 사용하는 속성
+- [기타 속성 참고 자료](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
+<br>
+
+```html
+<a href="#some-element-id">회사 소개로 이동하기</a>
+... 중략.
+<h1 id="some-element-id">회사 소개</h1>
+```
+- 내부 링크: 앵커 태그를 통해 페이지 내부의 특정 요소로 초점을 이동(내부 링크)
+  - `href="#요소-id"`<br>
 
 [🚀위로 가기](#목차)
 <br><br>
 
 ## 의미가 없는 컨테이너 요소
+> 태그 자체에 아무 의미가 없고 단순히 요소를 묶기 위해 사용하는 태그<br>
+> 스타일을 주거나 서버에 보내는 데이터를 담기 위한 용도로 사용
+- `<div></div>`: 블록 레벨 태그 (한 줄에 하나의 요소)
+- `<span></span>`: 인라인 레벨 태그 (한 줄에 여러개의 요소)
+- `<p>`: 블록 레벨 태그 , `<b>, <i>, <u>, <s>`: 인라인 레벨 태그<br>
 
 [🚀위로 가기](#목차)
 <br><br>
