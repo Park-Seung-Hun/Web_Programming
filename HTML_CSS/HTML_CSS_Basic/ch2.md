@@ -165,11 +165,138 @@
 
 ## 이미지 요소
 
+### 예제
+
+```html
+<img src="https://cdn.dominos.co.kr/admin/upload/goods/20200311_x8StB1t3.jpg" width="20%" height="40%" alt="피자">
+```
+<img src="https://cdn.dominos.co.kr/admin/upload/goods/20200311_x8StB1t3.jpg" width="20%" height="40%" alt="피자">
+
+- `<img>`: 문서에 이미지를 삽입하는 태그 (self closing tag)
+   - `src 속성`: 이미지 태그의 필수 속성. 경로를 나타내는 속성
+   - `alt 속성`: 이미지의 대체 텍스트를 나타내는 속성(이미지를 나타내는 글)
+   - `width/height 속성`: 이미지의 가로/세로 크기를 나타내는 속성. (default: 원본크기, 둘중 하나만 선언시 자동 비율 조정)
+  
+- `상대 경로`: 현재 웹페이지를 기준으로 이미지의 위치를 나타내는 경로
+- `절대 경로`: 실제 이미지가 위치한 곳의 주소<br>
+
 [🚀위로 가기](#목차)
 <br><br>
 
 ## 테이블 요소
 
+### 표의 구성요소
+- `<table></table>`: 표를 나타낸다.
+  - `<tr></tr>`: 행을 나타낸다.
+  - `<th></th>`: (제목)셀을 나타낸다.
+  - `<td></td>`: (내용)셀을 나타낸다.
+    - `colspan="숫자"`: 숫자만큼의 열을 병합한다.
+    - `rowspan="숫자"`: 숫자만큼의 행을 병합한다.
+- 하나의 `<table>`은 하나 이상의 `<tr>`로 이루어져있고, `<tr>`은 셀을 나타내는 `<th>,<td>`를 자식으로 가진다. 
+
+### 표의 구조와 관련된 태그
+- `<caption></caption>`: 표의 제목을 나타내는 태그
+- `<thead></thead>`: 제목 행을 그룹화하는 태그
+- `<tfoot></tfoot>`: 바닥 행을 그룹화하는 태그
+- `<tbody></tbody>`: 본문 행을 그룹화하는 태그
+
+### 예제
+> -	<head>안에 CSS코드를 입력하면 테두리가 나타난다.<br>
+  
+```html
+<style>
+    th, td { border: 1px solid; }
+</style>
+```
+
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>내가 좋아하는 만화</title>
+    <style media="screen">
+      td,
+      th {
+        border: 1px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        좋아하는 만화 종류
+      </caption>
+      <thead>
+        <tr>
+          <th rowspan="2">웹툰</th>
+          <th rowspan="2">만화</th>
+          <th colspan="2">기타</th>
+        </tr>
+
+        <tr>
+          <th>애니</th>
+          <th>카툰</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>신의 탑</td>
+          <td>원피스</td>
+          <td>주술회전</td>
+          <td>없음</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>광장</td>
+          <td>강철의 연금술사</td>
+          <td>하이큐</td>
+          <td>있음</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
+```
+
+<table>
+  <caption>
+      좋아하는 만화 종류
+  </caption>
+  <thead>
+   <tr>
+    <th rowspan="2">웹툰</th>
+    <th rowspan="2">만화</th>
+    <th colspan="2">기타</th>
+   </tr>
+
+   <tr>
+     <th>애니</th>
+     <th>카툰</th>
+   </tr>
+  </thead>
+   <tbody>
+    <tr>
+      <td>신의 탑</td>
+      <td>원피스</td>
+      <td>주술회전</td>
+      <td>없음</td>
+    </tr>
+   </tbody>
+   <tfoot>
+    <tr>
+      <td>광장</td>
+      <td>강철의 연금술사</td>
+      <td>하이큐</td>
+      <td>있음</td>
+    </tr>
+  </tfoot>
+</table>
+
+ 
+
+  
 [🚀위로 가기](#목차)
 <br><br>
 
