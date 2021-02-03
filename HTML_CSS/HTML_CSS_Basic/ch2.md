@@ -300,10 +300,47 @@
 ## 폼 요소
 > 웹 사이트가 사용자로부터 데이터를 받아야하는 경우 사용되는 요소 ex)아이디,비밀번호 입력
 
+
+```html
+    <form action="">
+      <fieldset>
+        <legend>정보</legend>
+        <label for="id">아이디</label>
+        <input id="id" type="text" />
+        <label for="password">비밀번호</label>
+        <input id="password" type="password" />
+        <label for="pdf">포트폴리오</label>
+        <input type="file" /><br />
+        <input type="submit" value="전송" />
+        <input type="reset" value="취소" />
+        <input type="image" "
+        src="https://cdn1-aka.makeshop.co.kr/design/smblue111/smartskin_2018/custom/img/SMS_clickFloat2.png"
+        alt="click" width="50" height="50"><br/>
+                                          
+        <select>
+          <option value="city">서울</option>
+          <option value="city">인천</option>
+          <option value="city">경기</option></select
+        ><br />
+        <textarea name="자기소개" cols="30" rows="10"></textarea>
+        <button type="submit|reset|button">제출|삭제|누르기</button>
+      </fieldset>
+    </form>
+```
+
+
+### form 태그
+- `<form>`: 폼에 입력된 데이터들을 묶어 실제 서버에 전송하는 역할.
+  - `action 속성`: 데이터를 처리하기 위한 서버의 주소
+  - `method 속성`: 데이터를 전송하는 방식을 지정
+      - `get`: 데이터가 전송될 때 주소창에 파라미터 형태로 붙어 데이터 노출
+      - `post`: 데이터 전송시 데이터가 노출되지 않는다.
+      
+### input 태그
 ```html
 <input type="type 종류">
 ```
-### input과 같이 사용되는 type 종류
+#### input과 같이 사용되는 type 종류
 1. `text 타입`: 주로 단순한 텍스트를 입력할 때 사용
    - `placeholder 속성`: 사용자가 입력하기전 미리 노출하는 값
 2. `password 타입`: 암호와 같이 공개할 수 없는 내용을 입력할 때 사용
@@ -318,6 +355,29 @@
 8. `button 타입`: 아무 의미 없는 버튼
 9. `image 타입`: 이미지를 삽입할 수 있는 버튼 
 
-
+### 그외의 태그
+- `<select>`: 선택 목록 상자 or combo box라고 한다. 
+  - `<option>`: select의 항목을 나타낸다.
+- `<text area>`: 한줄만 입력하는 text와 달리 여러 줄 입력 가능.
+  - `rows 속성`: 세로 크기를 조절하는 속성
+  - `cols 속성`: 가로 크기를 조절하는 속성
+- `<button>`: type을 통해 submit,reset,button의 기능을 모두 가질수 있는 버튼.(type="submit|reset|button")
+- `<label>`: 사용자 인터페이스 요소의 label을 정의할 때 사용. input과 같이 사용한다.
+```html
+<label for="name">이름을 입력하세요.</label>
+<input id="name" type="text">
+```
+- `<filedset>`: 여러 개의 폼 요소를 그룹화하여 구조적으로 만들기 위해 사용.form의 성격에 따라 구분.
+- `<legend>`: 폼 요소들의 제목. fieldset의 자식으로 최상단에 위치해야한다.
+```html
+<fieldset>
+    <legend>기본 정보</legend>
+    ... 폼 요소들 ...
+</fieldset>
+<fieldset>
+    <legend>부가 정보</legend>
+    ... 폼 요소들 ...
+</fieldset>
+```
 [🚀위로 가기](#목차)
 <br><br>
