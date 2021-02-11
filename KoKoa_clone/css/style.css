@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap");
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+
+/* Screens */
+@import "screens/login.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: whitesmoke;
+}
