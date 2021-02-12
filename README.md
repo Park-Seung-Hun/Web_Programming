@@ -9,8 +9,16 @@
 - WEB1 - HTML & Internet
 - WEB2 - CSS
 
+## [노마드 코더](https://nomadcoders.co/roadmap)
+- HTML & CSS
+- Vanilla JS
+
 ## 진행중인 프로젝트
 - 코코아 클론 코딩 2주 챌린지 시작 
+  - 개발 툴
+    - VSC 
+  - 개발 언어
+    - HTML, CSS
 
 ## 완료한 프로젝트
 - 없음
