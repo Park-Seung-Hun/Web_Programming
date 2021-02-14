@@ -7,10 +7,12 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
-
+@import "components/badge.css";
+@import "components/dot.css";
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/search.css";
 
 body {
   color: #2e363e;
@@ -21,4 +23,7 @@ body {
 }
 .friends__body {
   background-color: white;
+}
+.main-screen {
+  padding: var(--horizontal-space);
 }

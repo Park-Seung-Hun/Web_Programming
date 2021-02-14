@@ -1,4 +1,5 @@
 .status-bar {
+  font-weight: 700;
   display: flex;
   position: fixed;
   top: 0;

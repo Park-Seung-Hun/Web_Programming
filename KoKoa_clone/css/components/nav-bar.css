@@ -16,31 +16,13 @@
   color: #2e363e;
 }
 .nav__notification {
-  background-color: tomato;
-  color: white;
-  font-weight: 600;
-
   position: absolute;
   left: 15px;
   bottom: 15px;
-
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .nav__dot {
-  background-color: tomato;
-
   position: absolute;
   left: 33px;
   bottom: 30px;
-
-  width: 6px;
-  height: 6px;
-  border-radius: 3px;
 }

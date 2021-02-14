@@ -8,7 +8,7 @@
 }
 
 #friends-display-link i {
-  color: rgba(0, 0, 0, 0.3);
+  color: var(--grey);
 }
 .friend-screen__user,
 .friends-screen {
@@ -16,8 +16,8 @@
 }
 .friend-screen__channel {
   margin-top: 10px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
   padding: 15px 0;
 }
 .friend-screen__channel-header {
