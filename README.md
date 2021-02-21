@@ -21,4 +21,8 @@
     - HTML, CSS
 
 ## 완료한 프로젝트
-- 없음
+- [Momentum 클론 프로젝트](https://github.com/Park-Seung-Hun/momentum-clone-2021)
+  - 개발 툴
+      - VSC, GitHub
+  - 사용 스택
+    - HTML, CSS, Vanilla JS
