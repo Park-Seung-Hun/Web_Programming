@@ -14,15 +14,21 @@
 - Vanilla JS
 
 ## 진행중인 프로젝트
-- 코코아 클론 코딩 2주 챌린지 시작 
-  - 개발 툴
-    - VSC 
-  - 개발 언어
-    - HTML, CSS
-
 ## 완료한 프로젝트
-- [Momentum 클론 프로젝트](https://github.com/Park-Seung-Hun/momentum-clone-2021)
+- [Momentum 클론](https://github.com/Park-Seung-Hun/momentum_clone-2021)
   - 개발 툴
       - VSC, GitHub
   - 사용 스택
-    - HTML, CSS, Vanilla JS
+      - HTML, CSS, Vanilla JS
+  
+- [코코아 클론](https://github.com/Park-Seung-Hun/kokoa_clone-2021)
+  - 개발 툴
+      - VSC 
+  - 개발 언어
+      - HTML, CSS, Vanilla JS
+- [파이썬 웹스크래퍼](https://github.com/Park-Seung-Hun/Wep_Scraper-2021)
+  - 개발 툴
+      - VSC 
+  - 개발 언어
+      - Python
+ 
