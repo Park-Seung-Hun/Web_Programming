@@ -14,18 +14,24 @@
 - Vanilla JS
 
 ## 진행중인 프로젝트
+- [유튜브 클론 코딩](https://github.com/Park-Seung-Hun/webTube-2021)
+  - 개발 툴
+      - VSC, Terminal, Github
+  - 개발 언어
+  - 
 ## 완료한 프로젝트
 - [Momentum 클론](https://github.com/Park-Seung-Hun/momentum_clone-2021)
   - 개발 툴
       - VSC, GitHub
-  - 사용 스택
+  - 개발 언어
       - HTML, CSS, Vanilla JS
   
-- [코코아 클론](https://github.com/Park-Seung-Hun/kokoa_clone-2021)
+- [카카오톡 클론](https://github.com/Park-Seung-Hun/kokoa_clone-2021)
   - 개발 툴
       - VSC 
   - 개발 언어
       - HTML, CSS, Vanilla JS
+      - 
 - [파이썬 웹스크래퍼](https://github.com/Park-Seung-Hun/Wep_Scraper-2021)
   - 개발 툴
       - VSC 
