@@ -16,25 +16,64 @@
 ## 진행중인 프로젝트
 - [유튜브 클론 코딩](https://github.com/Park-Seung-Hun/webTube-2021)
   - 개발 툴
-      - VSC, Terminal, Github
-  - 개발 언어
-  - 
+      - VSC, Windows Terminal, Github
+  - 사용 기술
+```
+"packages": [
+  "NodeJS"
+  "ES6"
+  "Express"
+  "Babel"
+  "Pug"
+  "Passport"
+  "AJAX"
+  "Webpack"
+  "SCSS"
+  "MongoDB"
+  "Mongoose"
+  "Multer"
+  "ESLint"
+]
+ ```
 ## 완료한 프로젝트
 - [Momentum 클론](https://github.com/Park-Seung-Hun/momentum_clone-2021)
   - 개발 툴
       - VSC, GitHub
-  - 개발 언어
-      - HTML, CSS, Vanilla JS
-  
+  - 사용 기술
+```
+"packages": [
+  "Javascript"
+  "localStorage"
+  "AJAX"
+  "JSON"
+  "DOM"
+  "fetch"
+  "OpenWeather API"
+]
+```
 - [카카오톡 클론](https://github.com/Park-Seung-Hun/kokoa_clone-2021)
   - 개발 툴
-      - VSC 
-  - 개발 언어
-      - HTML, CSS, Vanilla JS
-      - 
+      - VSC , GitHub
+  - 사용 기술
+```
+"packages": [
+  "HTML5"
+  "CSS3"
+  "VSCode"
+  "Github Desktop"
+  "Font Awesome"
+]
+```
 - [파이썬 웹스크래퍼](https://github.com/Park-Seung-Hun/Wep_Scraper-2021)
   - 개발 툴
       - VSC 
-  - 개발 언어
-      - Python
+  - 사용 기술
+```
+"packages": [
+  "Python3"
+  "requests"
+  "BeautifulSoup4"
+  "Flask"
+]
+```
  
