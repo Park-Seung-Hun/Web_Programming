@@ -64,7 +64,7 @@
   "Font Awesome"
 ]
 ```
-- [파이썬 웹스크래퍼](https://github.com/Park-Seung-Hun/Wep_Scraper-2021)
+- [파이썬 웹스크래퍼](https://github.com/Park-Seung-Hun/webScraper-2021)
   - 개발 툴
       - VSC 
   - 사용 기술
