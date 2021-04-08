@@ -12,6 +12,7 @@
 ## [노마드 코더](https://nomadcoders.co/roadmap)
 - HTML & CSS
 - Vanilla JS
+- Node JS
 
 ## 진행중인 프로젝트
 - [유튜브 클론 코딩](https://github.com/Park-Seung-Hun/webTube-2021)
