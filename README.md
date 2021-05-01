@@ -15,6 +15,8 @@
 - Node JS
 
 ## 진행중인 프로젝트
+
+## 완료한 프로젝트
 - [유튜브 클론 코딩](https://github.com/Park-Seung-Hun/webTube-2021)
   - 개발 툴
       - VSC, Windows Terminal, Github
@@ -36,7 +38,6 @@
   "ESLint"
 ]
  ```
-## 완료한 프로젝트
 - [Momentum 클론](https://github.com/Park-Seung-Hun/momentum_clone-2021)
   - 개발 툴
       - VSC, GitHub
