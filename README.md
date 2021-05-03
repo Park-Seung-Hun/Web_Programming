@@ -15,7 +15,9 @@
 - Node JS
 
 ## 진행중인 프로젝트
+- [Edwith 웹 프로그래밍](https://www.boostcourse.org/web316/notices/12690) 
 
+- [ReactJS로 영화 웹 서비스 만들기]() 
 ## 완료한 프로젝트
 - [유튜브 클론 코딩](https://github.com/Park-Seung-Hun/webTube-2021)
   - 개발 툴
