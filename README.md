@@ -16,6 +16,8 @@
 - HTML & CSS
 - Vanilla JS
 - Node JS
+- [React](https://github.com/Park-Seung-Hun/react_movie_2021/blob/master/README.md)
+- [GraphQL](https://github.com/Park-Seung-Hun/movie_ql/blob/main/README.md)
 
 ## 진행중인 프로젝트
 - [Edwith 웹 프로그래밍](https://www.boostcourse.org/web316/notices/12690) 
